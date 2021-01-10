@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5292BD79-183D-46C9-B66F-18A54BA56CF0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vacant</RootNamespace>
+    <AssemblyName>Vacant</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="vacant\class.dart" />
+    <None Include="vacant\class.lsp" />
+    <None Include="vacant\coil.clj" />
+    <None Include="vacant\collect.fs" />
+    <None Include="vacant\ddr.groovy" />
+    <None Include="vacant\drainer.bf" />
+    <None Include="vacant\dresh.lsp" />
+    <None Include="vacant\ef.ex" />
+    <None Include="vacant\eri.erl" />
+    <None Include="vacant\fcxk.bf" />
+    <None Include="vacant\ffr.clj" />
+    <None Include="vacant\fks.bf" />
+    <None Include="vacant\fork.dart" />
+    <None Include="vacant\frk.clj" />
+    <None Include="vacant\frog.m" />
+    <None Include="vacant\gresh.rs" />
+    <None Include="vacant\manifest.bf" />
+    <None Include="vacant\neus.pas" />
+    <None Include="vacant\node.lua" />
+    <None Include="vacant\rot.hs" />
+    <None Include="vacant\setting.lsp" />
+    <None Include="vacant\solid.bf" />
+    <None Include="vacant\srad.fs" />
+    <None Include="vacant\start.kt" />
+    <None Include="vacant\sterling.swift" />
+    <None Include="vacant\toy.kt" />
+    <None Include="vacant\vader2.dart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="vacant\borderline.java" />
+    <Content Include="vacant\drot\drot.html" />
+    <Content Include="vacant\feos.html" />
+    <Content Include="vacant\finalizer.py" />
+    <Content Include="vacant\frem.vb" />
+    <Content Include="vacant\index.html" />
+    <Content Include="vacant\osp.asm" />
+    <Content Include="vacant\stss.py" />
+    <Content Include="vacant\work.vb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

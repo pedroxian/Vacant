@@ -1,0 +1,7 @@
+C:\Vacant\vs\Vacant\Vacant\bin\Release\Vacant.exe
+C:\Vacant\vs\Vacant\Vacant\bin\Release\Vacant.pdb
+C:\Vacant\vs\Vacant\Vacant\obj\Release\Vacant.Properties.Resources.resources
+C:\Vacant\vs\Vacant\Vacant\obj\Release\Vacant.csproj.GenerateResource.cache
+C:\Vacant\vs\Vacant\Vacant\obj\Release\Vacant.csproj.CoreCompileInputs.cache
+C:\Vacant\vs\Vacant\Vacant\obj\Release\Vacant.exe
+C:\Vacant\vs\Vacant\Vacant\obj\Release\Vacant.pdb

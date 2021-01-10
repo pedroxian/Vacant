@@ -1,0 +1,8 @@
+C:\Vacant\vs\Vacant\Vacant\bin\Debug\Vacant.exe
+C:\Vacant\vs\Vacant\Vacant\bin\Debug\Vacant.pdb
+C:\Vacant\vs\Vacant\Vacant\obj\Debug\Vacant.csprojAssemblyReference.cache
+C:\Vacant\vs\Vacant\Vacant\obj\Debug\Vacant.Properties.Resources.resources
+C:\Vacant\vs\Vacant\Vacant\obj\Debug\Vacant.csproj.GenerateResource.cache
+C:\Vacant\vs\Vacant\Vacant\obj\Debug\Vacant.csproj.CoreCompileInputs.cache
+C:\Vacant\vs\Vacant\Vacant\obj\Debug\Vacant.exe
+C:\Vacant\vs\Vacant\Vacant\obj\Debug\Vacant.pdb
